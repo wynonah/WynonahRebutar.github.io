@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AdventureWorks Sales Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>AdventureWorks </br>
+                                    Sales Dashboard and Analysis</h1>
+							</header>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+                                <section id="one">
+                                    <div class="inner">
+
+                                        <p>Using the 2018-2019 Adventure Works dataset, I developed a Sales Dashboard to monitor critical sales metrics and trends, identify underperforming regions, and provide insights into opportunities for expansion.</p>
+                                        <p>The dataset spans originally spans from 2017 to 2020, but only 2018 and 2019 contain complete annual data. Thus, we focus on the most recent comprehensive dataset from 2019. The process starts with data modeling, ensuring proper relationships between dimensions and the fact table. Each column is also checked to ensure it has a suitable data type. Additional columns and metrics are added via DAX to supply the necessary data. We begin the analysis after guaranteeing the data's consistency and reliability.</p>
+                                        
+                                        <span class="image main"><img src="images/pic-proj4-aw.png" alt="" /></span>
+
+                                    </div>
+                                </section>
+
+						<!-- Analysis -->
+                                 <section id="one">
+                                    <div class="inner">                               
+
+                                        <header class="major">
+                                            <h2>Analysis</h2>
+                                        </header>
+                                        
+                                        <h2>Sales Growth Between Current and Previous Year</h2>                                       
+                                        <p>In 2019, total orders and sales increased by around 41% compared to the previous year, indicating positive growth. The total product cost also increased by 40%, which was reasonable given the increased number of products sold. Although profits exceeded losses, the increase in losses outpaced the increase in profit by approximately 20%, indicating possible inefficiencies or problems despite total revenue growth.</p>
+                                    
+                                        <h2>Monthly Sales, Profit, and Loss </h2>
+                                        <p>Sales are low at the start of the year, but data reveals a general upward trend across countries. Peak months vary per region, although they mainly occurred in the third quarter, coinciding with the summer season and suggesting increased customer activity. However, profits decline during these peak months, prompting further research into potential factors influencing profitability despite higher sales.</p>
+
+                                        <h2>Sales Performance by Country</h2>
+                                        <p>The United States has the highest metrics across various parameters. Its profits are double its losses, reflecting its stability and solid financial success.</p>
+                                        <p>The Australian market presents interesting dynamics, where despite having the second lowest number of orders and resellers, it emerges as the second-highest profit generator, following only the United States, and ranking third in customer count. Notably, Australia accounted for no losses in product sales from January to July. Understanding this could provide prospects for future expansion in the Australian market, guiding us on the direction to take for growth.</p>
+                                        <p>In contrast, Canada has the second-highest number of resellers, consumers, and orders, yet its profitability is the lowest. They also exhibited negative profits for August and September. Furthermore, Canada has the smallest percentage of new clients. Exploring these aspects is critical for developing targeted strategies that optimize profitability and create sustainable growth in the Canadian market.</p>
+
+                                        <h2>Most In-demand Products</h2>
+                                        <p>The Sport-100 Helmet is consistently the most in-demand product in all countries. In addition, the Mountain 200 bike and patch kit are in the top five in every country except Canada.</p>
+
+                                        <h2>Customer Loyalty</h2>
+                                        <p>Purchases in all countries are predominantly made by existing customers, indicating strong customer loyalty. Leveraging this loyalty provides an opportunity to use our existing client base as advocates to acquire and engage new customers.</p>
+
+                                    </div>
+                                </section>
+
+						<!-- Recommendations -->
+                                <section id="one">
+                                    <div class="inner">                               
+
+                                        <header class="major">
+                                            <h2>Recommendations</h2>
+                                        </header>
+
+                                    </div>
+                                </section>
+
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
